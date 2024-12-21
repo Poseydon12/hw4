@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW4</title>
+  </head>
+  <body>
+    <h2>1. Перевірка текстових полів</h2>
+    <input type="text" id="textField1" placeholder="Текстове поле 1" />
+    <input type="text" id="textField2" placeholder="Текстове поле 2" />
+    <button onclick="checkTextFields()">Перевірити</button>
+
+    <h2>2. Перевірка числових полів</h2>
+    <input type="number" id="numberField1" placeholder="Числове поле 1" />
+    <input type="number" id="numberField2" placeholder="Числове поле 2" />
+    <button onclick="checkNumberSum()">Перевірити</button>
+
+    <h2>3. Перевірка наявності слова "JavaScript"</h2>
+    <input type="text" id="textField3" placeholder="Введіть текст" />
+    <button onclick="checkForJavaScript()">Перевірити</button>
+
+    <h2>4. Перевірка діапазону числа</h2>
+    <input type="number" id="numberField3" placeholder="Введіть число" />
+    <button onclick="checkNumberRange()">Перевірити</button>
+
+    <h2>5. Перевірка правильності заповнення форми</h2>
+    <input type="text" id="nameField" placeholder="Ім'я" />
+    <input type="email" id="emailField" placeholder=" Email" />
+    <input type="password" id="passwordField" placeholder="Пароль" />
+    <button onclick="validateForm()">Перевірити</button>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
